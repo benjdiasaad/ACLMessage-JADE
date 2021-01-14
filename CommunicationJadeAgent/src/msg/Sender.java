@@ -19,7 +19,7 @@ public class Sender extends Agent {
 				//set the message content to send
 				msg.setContent("Bonjour Saad");
 				//add a the message receiver
-				msg.addReceiver(new AID("Receiver",AID.ISLOCALNAME));
+				msg.addReceiver(new AID("receiver",AID.ISLOCALNAME));
 				//send the message
 				send(msg);
 			}
